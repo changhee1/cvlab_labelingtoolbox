@@ -151,12 +151,13 @@ class BBLabelingToolBox:
                 sys.exit('done\n')
 
     def _toggle_gt(self, e):
-        if self.draw_gt:
+        self.draw_gt = not self.draw_gt
+        if not self.draw_gt:
             [self.canvas.delete(self.canvas_gt_bb_id[x]) for x in range(4)]
             self.canvas_gt_bb_id = [0,0,0,0]
         else:
             self._draw_gt_bbox()
-        self.draw_gt = not self.draw_gt
+        
 
     def _draw_bbox(self, fill='blue', width=2):
         tl, tr, bl, br = self.current_bbox.get_corner_coords()

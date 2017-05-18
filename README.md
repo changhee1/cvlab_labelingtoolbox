@@ -23,5 +23,5 @@ Short cut
 - <kbd>Ctrl</kbd>+<kbd>→, ←, ↑, ↓</kbd> : Reduce bbox.
 - <kbd>Alt</kbd>+<kbd>→, ←</kbd> OR <kbd>Mouse Wheel</kbd> : Rotate bbox
 - <kbd>g</kbd> : toggle old groundtruth bbox.
-- <kbd>s</kbd> : save and next image.
+- <kbd>s</kbd> : save and proceed to next image.
 

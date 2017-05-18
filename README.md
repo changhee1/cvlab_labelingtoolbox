@@ -8,3 +8,8 @@ Usage
   
 Dataset Download
 - command: python download_dataset.py
+
+Dependencies
+- Python 2.7
+- Tkinter
+- PIL (Python Imaging Library)
